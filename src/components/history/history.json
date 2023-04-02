@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_history_histories",
+  "info": {
+    "displayName": "history",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "feedback": {
+      "displayName": "feedback",
+      "type": "component",
+      "repeatable": false,
+      "component": "feedback.feedback"
+    }
+  }
+}

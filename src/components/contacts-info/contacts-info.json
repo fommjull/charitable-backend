@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_contacts_info_contacts_infos",
+  "info": {
+    "displayName": "contactsInfo"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "MainPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "mainTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "ourMission": {
+      "displayName": "our-mission",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "our-mission.our-mission"
+    },
+    "news": {
+      "displayName": "news",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "news.news"
+    }
+  }
+}

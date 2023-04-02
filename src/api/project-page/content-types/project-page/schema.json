@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_pages",
+  "info": {
+    "singularName": "project-page",
+    "pluralName": "project-pages",
+    "displayName": "ProjectPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "otherProject": {
+      "displayName": "otherproject",
+      "type": "component",
+      "repeatable": false,
+      "component": "other-project.otherproject"
+    }
+  }
+}

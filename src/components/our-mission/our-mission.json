@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_our_mission_our_missions",
+  "info": {
+    "displayName": "our-mission",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
